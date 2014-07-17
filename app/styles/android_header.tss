@@ -1,0 +1,84 @@
+//------------------------------------------------------------------------------------------------------------------------------------------------
+//=------------------------------------------------- FOR MOBILE   --------------------------------------------------------------------------
+//------------------------------------------------------------------------------------------------------------------------------------------------
+"#navBarContainer[formFactor=handheld]":{
+	top: 0,
+	left: 0,
+	right: 0,
+	height: 40,
+	backgroundColor: Alloy.CFG.app_color.color_header
+},
+"#win_title[formFactor=handheld]":
+{
+	textAlign: 'center',
+	color: Alloy.CFG.app_color.color_title,
+	font: {
+		fontSize: Alloy.CFG.FontSize.F20,
+		fontWeight: "normal"
+	}
+},
+"#leftBtn[formFactor=handheld]":
+{
+	left: 10,
+	height: 45,
+	width: 40,
+	backgroundImage: '/images/back_button.png',
+	backgroundColor: 'transparent'
+},
+"#rightBtn[formFactor=handheld]":
+{
+	right: 10,
+	backgroundColor: 'transparent',
+	height: 20,
+	width: 30
+},
+".title_view[formFactor=handheld]":
+{
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
+	backgroundColor: 'transparent',
+	layout: 'horizontal'
+},
+//------------------------------------------------------------------------------------------------------------------------------------------------
+//=------------------------------------------------- FOR TABLET   --------------------------------------------------------------------------
+//------------------------------------------------------------------------------------------------------------------------------------------------
+"#navBarContainer[formFactor=tablet]":
+{
+	top: 0,
+	left: 0,
+	right: 0,
+	height: 55,
+	backgroundColor: Alloy.CFG.app_color.color_header
+},
+"#win_title[formFactor=tablet]":
+{
+	//left: 2,
+	textAlign: 'center',
+	color: Alloy.CFG.app_color.color_title,
+	font: {
+		fontSize: Alloy.CFG.FontSize.F22,
+		fontWeight: "normal"
+	}
+},
+"#leftBtn[formFactor=tablet]":
+{
+	left: 10,
+	height: 45,
+	width: 40,
+	backgroundImage: '/images/back_button.png',
+	backgroundColor: 'transparent'
+},
+"#rightBtn[formFactor=tablet]":
+{
+	right: 10,
+	backgroundColor: 'transparent',
+	height: 25,
+	width: 37
+},
+".title_view[formFactor=tablet]":
+{
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
+	backgroundColor: 'transparent',
+	layout: 'horizontal'
+}

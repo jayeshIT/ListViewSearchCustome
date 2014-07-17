@@ -1,0 +1,129 @@
+"Window":
+{
+	//fullscreen: false,
+	//navBarHidden: false,
+	navTintColor: Alloy.CFG.app_color.color_title,
+	barColor: Alloy.CFG.app_color.color_header,
+	tintColor: Alloy.CFG.app_color.color_title,
+	backgroundColor: Alloy.CFG.app_color.color_winBackground,
+	titleAttributes:{
+		color: Alloy.CFG.app_color.color_title,
+		font: {
+			fontSize: Alloy.CFG.FontSize.F19,
+			fontWeight: "bold"
+		}
+	},
+	top: Alloy.CFG.iosWinTop
+},
+"NavigationWindow":{
+	backgroundColor: Alloy.CFG.app_color.color_header
+},
+'Button[formFactor=handheld]':{
+	color: Alloy.CFG.app_color.color_black,
+	backgroundColor: Alloy.CFG.app_color.color_white,
+	font: {
+		fontSize: Alloy.CFG.FontSize.F12,
+		fontWeight: "normal"
+	},
+	height: 30
+},
+
+'Button[formFactor=tablet]':{
+	color: Alloy.CFG.app_color.color_black,
+	backgroundColor: Alloy.CFG.app_color.color_white,
+	font: {
+		fontSize: Alloy.CFG.FontSize.F12,
+		fontWeight: "normal"
+	},
+	height: 35
+},
+'Label':{
+	color: Alloy.CFG.app_color.color_black,
+	textAlign: 'left',
+	font: {
+		fontSize: Alloy.CFG.FontSize.F12,
+		fontWeight: "normal"
+	},
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE
+},
+'TextField':{
+	backgroundColor: Alloy.CFG.app_color.color_winBackground,
+	borderWidth: 0.5,
+	paddingLeft: 5,
+	paddingRight: 5,
+	color: Alloy.CFG.app_color.color_black,
+	font: {
+		fontSize: Alloy.CFG.FontSize.F14,
+		fontWeight: "normal"
+	},
+	returnKeyType: Titanium.UI.RETURNKEY_NEXT,
+	autocapitalization: Ti.UI.TEXT_AUTOCAPITALIZATION_NONE,
+	autocorrect: false,
+	height: 31,
+	borderColor: Alloy.CFG.app_color.color_textField_border
+}
+'TextArea':{
+	backgroundColor: Alloy.CFG.app_color.color_winBackground,
+	borderRadius: 2,
+	paddingLeft: 10,
+	paddingRight: 10,
+	color: Alloy.CFG.app_color.color_black,
+	font: {
+		fontSize: Alloy.CFG.FontSize.F14,
+		fontWeight: "normal"
+	},
+	height: 100
+},
+
+"ListView[platform=ios]":{
+	selectionStyle: Titanium.UI.iPhone.ListViewCellSelectionStyle.NONE,
+	selectedBackgroundColor: 'transparent',
+	backgroundSelectedColor: 'transparent',
+	footerTitle: ''
+},
+
+"#title_view":
+{
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
+	backgroundColor: 'transparent',
+	layout: 'horizontal'
+},
+".win_title_label[formFactor=handheld]":
+{
+	//left: 2,
+	color: Alloy.CFG.app_color.color_title,
+	font: {
+		fontSize: Alloy.CFG.FontSize.F18,
+		fontWeight: "bold"
+	}
+},
+".win_title_label[formFactor=tablet]":
+{
+	//left: 2,
+	color: Alloy.CFG.app_color.color_title,
+	font: {
+		fontSize: Alloy.CFG.FontSize.F22,
+		fontWeight: "bold"
+	}
+},
+/*
+".logo_image":
+{
+height: 20,
+width: 20,
+image: '/appicon.png'
+},*/
+".listview_general":
+{
+	top: 0,
+	left: 0,
+	backgroundColor: 'transparent',
+	separatorColor: Alloy.CFG.app_color.color_gray,
+	separatorStyle: 1,
+	separatorInsets:
+	{
+		left: 0
+	}
+}

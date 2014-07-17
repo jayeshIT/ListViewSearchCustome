@@ -1,0 +1,10 @@
+<Alloy>
+	<View id="navBarContainer" platform="android">
+		<Button id="leftBtn"/>
+		<View class="title_view">
+			<!-- <ImageView id="logo_image" class="logo_image"/> -->
+			<Label id="win_title" class="win_title"/>
+		</View>
+		<Button id="rightBtn"/>
+	</View>
+</Alloy>

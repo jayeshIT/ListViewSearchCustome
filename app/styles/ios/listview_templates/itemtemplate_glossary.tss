@@ -1,0 +1,132 @@
+//---------------------------------------------------------------------------------------------------------------------------------------------
+//------------------------------------------------------------MOBILE DEVICE
+//--------------------------------------------------------------------------------------------------------------------------------------------
+
+"#item_template_glossary[formFactor=handheld]":
+{
+	height: Ti.UI.SIZE,
+	backgroundColor: 'transparent',
+	selectionStyle: Titanium.UI.iPhone.ListViewCellSelectionStyle.NONE
+},
+".main_View[formFactor=handheld]":
+{
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
+	backgroundColor: 'transparent'
+},
+
+"#title_label[formFactor=handheld]":
+{
+	top: 10,
+	left: 10,
+	bottom: 10,
+	color: Alloy.CFG.app_color.color_blue,
+	font: {
+		fontSize: Alloy.CFG.FontSize.F17
+	},
+	textAlign: 'left',
+	height: 30,
+	right: 25
+},
+"#title_desc[formFactor=handheld]":
+{
+	top: 10,
+	color: Alloy.CFG.app_color.color_black,
+	font: {
+		fontSize: Alloy.CFG.FontSize.F15
+	},
+	textAlign: 'left',
+	left: 10,
+	right: 25
+},
+"#right_imageview[formFactor=handheld]":
+{
+	right: 10,
+	height: 13,
+	width: 8,
+	image: '/images/arrow_icon.png'
+},
+
+"#image_right_down[formFactor=handheld]":
+{
+
+	right: 10,
+	height: 13,
+	width: 50,
+	image: '/images/arrow_downt.png',
+	visible: false
+},
+
+"#bottom_view[formFactor=handheld]":
+{
+	left: 10,
+	bottom: 0,
+	height: 1,
+	backgroundColor: Alloy.CFG.app_color.color_gray
+},
+
+//---------------------------------------------------------------------------------------------------------------------------------------------
+//------------------------------------------------------------TABLET DEVICE
+//--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+"#item_template_glossary[formFactor=tablet]":
+{
+	height: Ti.UI.SIZE,
+	backgroundColor: 'transparent',
+	selectionStyle: Titanium.UI.iPhone.ListViewCellSelectionStyle.NONE
+},
+".main_View[formFactor=tablet]":
+{
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
+	backgroundColor: 'transparent'
+},
+"#title_label[formFactor=tablet]":
+{
+	top: 10,
+	bottom: 10,
+	color: Alloy.CFG.app_color.color_blue,
+	font: {
+		fontSize: Alloy.CFG.FontSize.F25
+	},
+	textAlign: 'left',
+	left: 20,
+	right: 30
+},
+
+"#title_desc[formFactor=tablet]":
+{
+	top: 10,
+	color: Alloy.CFG.app_color.color_black,
+	font: {
+		fontSize: Alloy.CFG.FontSize.F22
+	},
+	textAlign: 'left',
+	left: 10,
+	right: 25
+},
+"#right_imageview[formFactor=tablet]":
+{
+	right: 15,
+	height: 20,
+	width: 12,
+	image: '/images/arrow_icon.png'
+},
+"#image_right_down[formFactor=tablet]":
+{
+	right: 10,
+	height: 8,
+	width: 50,
+	image: '/images/arrow_downt.png',
+	visible: false
+},
+"#bottom_view[formFactor=tablet]":
+{
+	left: 20,
+	bottom: 0,
+	height: 1,
+	backgroundColor: Alloy.CFG.app_color.color_gray
+}
+
+

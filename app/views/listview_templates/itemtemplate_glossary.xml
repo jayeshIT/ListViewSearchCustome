@@ -1,0 +1,11 @@
+<Alloy>
+	<ItemTemplate name="itemtemplate_glossary_list" id="item_template_glossary">
+		<View class="main_View">
+			<Label bindId="lbl" id="title_label"/>
+			<Label bindId="lbl_desc" id="title_desc"/>
+			<ImageView bindId="image_right" id="right_imageview"/>
+			<ImageView bindId="image_right_down" id="image_right_down"/>
+			<View bindId="bottom_view_gray" id="bottom_view"/>
+		</View>
+	</ItemTemplate>
+</Alloy>

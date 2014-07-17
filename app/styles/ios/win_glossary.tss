@@ -1,0 +1,16 @@
+"#win_glossary":{
+	top: 0,
+	navBarHidden: false
+},
+"#glossary_listview":
+{
+	top: 70,
+	left: 0,
+	backgroundColor: 'transparent',
+	selectedBackgroundColor: 'transparent',
+	separatorColor: 'transparent',
+	separatorInsets:
+	{
+		left: 0
+	}
+}

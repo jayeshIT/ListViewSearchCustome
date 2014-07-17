@@ -1,0 +1,92 @@
+"Window":{
+	fullscreen: false,
+	navBarHidden: true,
+	backgroundColor: Alloy.CFG.app_color.color_winBackground,
+	exitOnClose: false
+},
+'Button[formFactor=handheld]': {
+	color: Alloy.CFG.app_color.color_white,
+	font: {
+		fontSize: Alloy.CFG.FontSize.F12,
+		fontWeight: "normal"
+	},
+	height: 35
+},
+'Button[formFactor=tablet]': {
+	color: Alloy.CFG.app_color.color_white,
+	font: {
+		fontSize: Alloy.CFG.FontSize.F12,
+		fontWeight: "normal"
+	},
+	height: 40
+},
+'Label':{
+	color: Alloy.CFG.app_color.color_black,
+	textAlign: 'left',
+	font: {
+		fontSize: Alloy.CFG.FontSize.F13,
+		fontWeight: "normal"
+	},
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE
+},
+'TextField':{
+	backgroundColor: Alloy.CFG.app_color.color_winBackground,
+	borderWidth: 1,
+	color: Alloy.CFG.app_color.color_black,
+	font: {
+		fontSize: Alloy.CFG.FontSize.F14,
+		fontWeight: "normal"
+	},
+	returnKeyType: Titanium.UI.RETURNKEY_NEXT,
+	autocapitalization: Ti.UI.TEXT_AUTOCAPITALIZATION_NONE,
+	autocorrect: false,
+	height: 35,
+	borderColor: Alloy.CFG.app_color.color_textField_border
+}
+'TextArea':{
+	backgroundColor: Alloy.CFG.app_color.color_winBackground,
+	borderRadius: 2,
+	paddingLeft: 10,
+	paddingRight: 10,
+	color: Alloy.CFG.app_color.color_black,
+	font: {
+		fontSize: Alloy.CFG.FontSize.F14,
+		fontWeight: "normal"
+	},
+	height: 100
+},
+"ListView":{
+	selectedBackgroundColor: 'transparent',
+	backgroundSelectedColor: 'transparent'
+},
+".main_view_android[formFactor=handheld]":
+{
+	top: 40,
+	bottom: 0,
+	left: 0,
+	right: 0,
+	backgroundColor: 'transoarent'
+},
+".main_view_android[formFactor=tablet]":
+{
+	top: 55,
+	bottom: 0,
+	left: 0,
+	right: 0,
+	backgroundColor: 'transoarent'
+},
+".listview_general":
+{
+	top: 0,
+	left: 0,
+	backgroundColor: 'transparent',
+	separatorColor: Alloy.CFG.app_color.color_gray,
+	selectedBackgroundColor: 'transparent',
+	separatorStyle: 1,
+	separatorInsets:
+	{
+		left: 0
+	}
+}
+

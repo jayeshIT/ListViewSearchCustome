@@ -1,0 +1,13 @@
+<Alloy>
+	<NavigationWindow id="NavigationWindow">
+		<Window id="win_glossary" title="search">
+			<ListView  id="glossary_listview" defaultItemTemplate="itemtemplate_glossary_list" class="listview_general">
+				<Templates>
+					<Require src="listview_templates/itemtemplate_glossary"/>
+				</Templates>
+				<ListSection class="list_section" id="list_section">
+				</ListSection>
+			</ListView>
+		</Window>
+	</NavigationWindow>
+</Alloy>
