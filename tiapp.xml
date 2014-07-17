@@ -3,10 +3,10 @@
     <id>com.custome</id>
     <name>ListViewSearchCustome</name>
     <version>1.0</version>
-    <publisher>indianic</publisher>
+    <publisher>appdev</publisher>
     <url>http://</url>
     <description>not specified</description>
-    <copyright>2014 by indianic</copyright>
+    <copyright>2014 by appdev</copyright>
     <icon>appicon.png</icon>
     <fullscreen>false</fullscreen>
     <navbar-hidden>false</navbar-hidden>
